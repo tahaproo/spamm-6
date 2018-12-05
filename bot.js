@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "8";
+var prefix = "11";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
